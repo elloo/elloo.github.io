@@ -168,17 +168,10 @@ nav {
 
 #city0 {
     transform: rotate(17deg);
-    transition: transform .25s ease-in-out;
 }
 
 #city1 {
     transform: rotate(-10deg);
-    transition: transform .25s ease-in-out;
-}
-
-#city0:hover,
-#city1:hover {
-    transform: rotate(0deg);
 }
 
 td {
@@ -345,5 +338,11 @@ td {
     #contact img {
         display: inline;
         width: 100px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    table {
+        width: 300px;
     }
 }
