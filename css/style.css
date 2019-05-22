@@ -145,7 +145,7 @@ nav {
 
 #about header p {
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #tagline {
@@ -167,7 +167,7 @@ nav {
 }
 
 #city0 {
-    transform: rotate(20deg);
+    transform: rotate(17deg);
     transition: transform .25s ease-in-out;
 }
 
