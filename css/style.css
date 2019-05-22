@@ -284,18 +284,6 @@ td {
 
 @media only screen and (max-width: 850px){
 
-    p, table {
-        font-size: 16px;
-    }
-
-    figcaption {
-        font-size: 14px;
-    }
-
-    #contact img {
-        display: inline;
-    }
-
     /********/
     /* GRID */
     /********/
@@ -340,5 +328,22 @@ td {
     #navContact {
         position: absolute;
         right: 10px;
+    }
+
+    /************/
+    /* SPECIFIC */
+    /************/
+
+    p, table {
+        font-size: 16px;
+    }
+
+    figcaption {
+        font-size: 14px;
+    }
+
+    #contact img {
+        display: inline;
+        width: 100px;
     }
 }
