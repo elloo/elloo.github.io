@@ -35,11 +35,6 @@ figcaption {
     font-size: 16px;
 }
 
-a,
-a:visited {
-    color: #F4FFF8;
-    text-decoration: none;
-}
 
 
 
@@ -122,6 +117,7 @@ nav {
     border-radius: 0 50% 0 0;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #navAbout {
